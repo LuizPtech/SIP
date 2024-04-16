@@ -1,0 +1,111 @@
+.bg-primary-santri {
+  background-color: var(--primari-color)
+}
+
+.bg-secundary-santri {
+  background-color: var(--secundary-color)
+}
+
+.bg-terceary-santri {
+  background-color: var(--terceary-color);
+}
+
+.dotted-border {
+  border: 3px dashed var(--border-color);
+}
+
+.gradient {
+  background-color: #5DE0E6;
+
+  background: linear-gradient(to right, #5DE0E6, #004AAD);
+
+  background: -webkit-linear-gradient(left, #5DE0E6, #004AAD);
+  background: -moz-linear-gradient(left, #5DE0E6, #004AAD);
+  background: -o-linear-gradient(left, #5DE0E6, #004AAD);
+}
+
+.img {
+  width: 30px;
+}
+
+.img-card {
+  width: 10rem;
+}
+
+.w-sm {
+  width: 25%;
+}
+
+
+.conteiner-img-banner {
+  width: 52rem;
+  position: absolute;
+  top: -100px;
+  right: -150px;
+  transform: translate(-50% -50%);
+}
+
+.full_width {
+  width: 50%;
+}
+
+.logo-container {
+ /* position: absolute; /* ou 'fixed' se você quiser que o logo permaneça no lugar durante o scroll */
+  top: 10px; /* Ajuste de acordo com a margem desejada do topo da página */
+  left: 10px; /* Ajuste de acordo com a margem desejada da lateral da página */
+  width: 100px; /* ou o tamanho desejado para o logo */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.logo-container img {
+  width: 100%;
+  height: auto;
+  /*display: block; /* remove espaço extra abaixo da imagem */
+}
+
+@media (max-width: 1233px) {
+  .conteiner-img-banner {
+    width: 45rem;
+    top: -30px;
+    right: -50px;
+  }
+}
+
+@media (max-width: 999px) {
+  .conteiner-img-banner {
+    display: none;
+  }
+
+  .full_width {
+    width: 100%;
+  }
+
+  .display-block {
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .w-sm {
+    width: 50%;
+  }
+
+  .img-card {
+    width: 6rem;
+  }
+
+  .h-sm-auto {
+    height: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .w-sm {
+    width: 80%;
+  }
+}
+
+@media (max-width: 360px) {
+  .w-sm {
+    width: 100%;
+  }
+}

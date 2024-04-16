@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  color: white;
+}
+
+:root {
+  --primari-color: #000d34;
+  --secundary-color: #bad1e6;
+
+  --terceary-color: #004aad;
+  --border-color: #75b2e9;
+}
