@@ -1,6 +1,6 @@
 import React from "react";
 import "./page.css"
-import Banner from "../../assets/banner.svg"
+import Banner from "../../assets/banner.png"
 import Whatsapp from "../../assets/whatsapp.png"
 import Praticidade from "../../assets/praticidade.png"
 import Eficacia from "../../assets/eficacia.png"
@@ -8,12 +8,15 @@ import Velocidade from "../../assets/velocidade.png"
 import Hometeck from "../../assets/hometeck.svg"
 import BadenBanho from "../../assets/baden_banho.svg"
 import DentalGlobo from "../../assets/dental_globo.svg"
+import sip_logo from "../../assets/sip_logo.png"
 
 function Components() {
 
   return (<>
     <section className="container d-flex flex-column h-100 justify-content-between z-1 ">
-      <div className="fs-1 fw-bold mb-5 text-uppercase mt-5">sip logo</div>
+      <div className="logo-container">
+        <img src={sip_logo} alt="Logo" />
+      </div>      
       <div className="d-flex flex-column w-100 h-50 gap-5 container-md position-relative">
         {/* gradient and an externally edited class in page.css */}
         <div className="bg-warning w-25 p-3 rounded-5 mb-5 gradient" />

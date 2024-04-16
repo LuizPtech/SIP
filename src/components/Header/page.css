@@ -49,6 +49,20 @@
   width: 50%;
 }
 
+.logo-container {
+ /* position: absolute; /* ou 'fixed' se você quiser que o logo permaneça no lugar durante o scroll */
+  top: 10px; /* Ajuste de acordo com a margem desejada do topo da página */
+  left: 10px; /* Ajuste de acordo com a margem desejada da lateral da página */
+  width: 100px; /* ou o tamanho desejado para o logo */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.logo-container img {
+  width: 100%;
+  height: auto;
+  /*display: block; /* remove espaço extra abaixo da imagem */
+}
+
 @media (max-width: 1233px) {
   .conteiner-img-banner {
     width: 45rem;
