@@ -53,7 +53,7 @@
  /* position: absolute; /* ou 'fixed' se você quiser que o logo permaneça no lugar durante o scroll */
   top: 10px; /* Ajuste de acordo com a margem desejada do topo da página */
   left: 10px; /* Ajuste de acordo com a margem desejada da lateral da página */
-  width: 120px; /* ou o tamanho desejado para o logo */
+  width: 140px; /* ou o tamanho desejado para o logo */
   height: auto; /* Mantém a proporção da imagem */
 }
 
