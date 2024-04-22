@@ -1,5 +1,6 @@
 import './App.css'
 import Components from './components/Header/Page.jsx'
+import logo from './src/assets/Santri Tecnologia.png'
 import React, { useEffect } from 'react';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <div className='vh-100 mh-100 bg-primary-santri overflow-x-hidden'>
+      <img src={logo}/>
         <Components />
       </div>
     </>
