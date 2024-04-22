@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className='vh-100 mh-100 bg-primary-santri overflow-x-hidden'>
-      <img src={logo} alt="Logo da Santri Tecnologia" />
+      
         <Components />
       </div>
     </>
