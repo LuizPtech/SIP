@@ -20,7 +20,7 @@ function Components() {
       <div className="d-flex flex-column w-100 h-50 gap-5 container-md position-relative">
         {/* gradient and an externally edited class in page.css */}
         <div className="bg-warning w-25 p-3 rounded-5 mb-5 gradient" />
-        <p className="full_width fs-4 fw-light">Unindo inovação e tecnologia para criar uma solução que facilita não só a gerência, mas também o operativo.</p>
+        <p className="full_width fs-4 fw-light">Integrando inteligência e performance para desenvolver uma solução que simplifica tanto a gestão quanto a operação.</p>
         <div className="d-flex gap-3 full_width">
           <a href="https://wa.me/5561996887965" className="fs-4 d-flex justify-content-center align-items-center gap-2 btn btn-primary btn-lg border border-3 border-primary rounded-5 text-capitalize fw-bold"><img src={Whatsapp} className="img" alt="" />Contato</a>
           <a href="https://sip-santritecnologia.dynns.com:3000" target="_black" className="fs-4 btn border border-primary border-3 rounded-5 text-capitalize fw-bold text-white">Entrar</a>
