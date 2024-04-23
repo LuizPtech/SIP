@@ -29,7 +29,7 @@ function Components() {
           <img src={Banner} alt="Banner" className="object-fit-cover" />
         </div>
       </div>
-      <div className="d-flex flex-column align-items-center text-center dotted-border rounded-5 p-3 bg-terceary-santri">
+      <div className="d-flex flex-column align-items-center text-center dotted-border rounded-5 p-3 bg-terceary-santri mt-4">
         <p className="fs-1 fw-bold mb-0"> Por que usar o <span className="text-uppercase">SIP</span>?</p>
         <p className="fs-3 fw-semibold mb-0">Praticidade e eficácia na palma de sua mão.</p>
       </div>
