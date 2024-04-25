@@ -110,8 +110,7 @@ function Components() {
           <div className="text-center dotted-border rounded-5 p-3 bg-secundary-santri">
             <p className="fs-2 fw-bold mb-0 text-primary-emphasis mb-4">
               Grandes gestores utilizam o{" "}
-              <span className="text-uppercase">SIP</span> para facilitar seu
-              dia-a-dia.
+              <span className="text-uppercase">SIP</span>. Já somos +500 usuários.
             </p>
             <Carousel />
           </div>
